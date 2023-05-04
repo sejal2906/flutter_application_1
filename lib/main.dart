@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Login_page.dart';
+import 'package:flutter_application_1/pages/Login_page.dart';
+import 'package:flutter_application_1/pages/Registration_page.dart';
+
+
 //import 'package:flutter_application_1/practice.dart';
 //import 'googleFonts.dart';
 void main(){
@@ -20,9 +23,9 @@ class MyApp extends StatelessWidget {
      // ),
       //initialRoute: "/home",
       routes: {
-       "/" :(context)=> LoginPage(),
+       "/" :(context)=> Registration(),
         //"/home":(context)=>HomePage(),
-        "/Login":(context)=>LoginPage(),
+        "/Login":(context)=>Registration(),
       },
     );
   }
