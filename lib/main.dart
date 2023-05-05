@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/Batches.dart';
+import 'package:flutter_application_1/pages/Homepage_admin.dart';
+import 'package:flutter_application_1/pages/Homepage_user.dart';
 import 'package:flutter_application_1/pages/Login_page.dart';
 import 'package:flutter_application_1/pages/Registration_page.dart';
+import 'package:flutter_application_1/pages/table.dart';
 
 
 //import 'package:flutter_application_1/practice.dart';
@@ -14,18 +18,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     //home: HomePage(),
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme:ThemeData(primarySwatch: Colors.blue),
-     // darkTheme: ThemeData(
-       // brightness: Brightness.dark,-->for dark theme
-     // ),
-      //initialRoute: "/home",
+
       routes: {
-       "/" :(context)=> Registration(),
-        //"/home":(context)=>HomePage(),
-        "/Login":(context)=>Registration(),
+       "/" :(context)=> LoginPage(),
+
+        "/Login":(context)=>LoginPage(),
       },
     );
   }
