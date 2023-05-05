@@ -78,7 +78,7 @@ class _RegistrationState extends State<Registration> {
               Inputfield(hintText: "Enter Your Email Address", labelText: "Email Address" ,controller:_emailController ,/*call validatory conditions here*/),
               SizedBox(height: 15,),
 
-              //-------------------- Call **"Drop down button"** here from dropdown.dart----------------------------------------------------------------------------------------------------------------------
+              //-------------------- Call **"Drop down button"** here from dropdown.dart and delete this code upto the mark----------------------------------------------------------------------------------------------------------------------
               DropdownButtonHideUnderline(
                 child: DropdownButton2(
                   isExpanded: true,
@@ -159,7 +159,7 @@ class _RegistrationState extends State<Registration> {
                   ),
                 ),
               ),
-//--------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------
                SizedBox(height: 15,),
 
 
